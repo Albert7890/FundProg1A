@@ -186,5 +186,102 @@
             Estas instituciones ofrecen recursos valiosos y información detallada sobre el consumo de drogas y cómo prevenirlo. Te animamos a explorar sus sitios web para obtener más conocimientos sobre este importante tema.
         </p>
     </div>
+    <div align="center">
+ <button id="changeColorButton" class="btn">Cambiar Color de Fondo</button>
+
+    <script>
+        // JavaScript para cambiar el color de fondo
+        const changeColorButton = document.getElementById("changeColorButton");
+        const body = document.body;
+        const colors = ["#A0DAA9", "#F0C987", "#7B88A0", "#D76E77", "#FFC0CB"];
+        let currentColorIndex = 0;
+
+        changeColorButton.addEventListener("click", function () {
+            currentColorIndex = (currentColorIndex + 1) % colors.length;
+            body.style.backgroundColor = colors[currentColorIndex];
+        });
+    </script>
+    </div>
+    <h1 class="center-text">Imágenes relacionadas al consumo de drogas</h1>   
+    <div align="center">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <style>
+        /* Estilos CSS para el carrusel */
+        .carousel-container {
+            width: 50%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .carousel-slide {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-image {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .carousel-button {
+            cursor: pointer;
+        }
+    </style>
+    </div>
+</head>
+<body>
+    <div align="center">
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img class="carousel-image" src="https://us.123rf.com/450wm/alexeyzatevahin/alexeyzatevahin2103/alexeyzatevahin210300056/166522809-firmar-detener-las-drogas-colorido-mont%C3%B3n-de-medicamentos-y-analg%C3%A9sicos-sobre-fondo-amarillo.jpg?ver=6" alt="Imagen 1" width=50%>
+            <img class="carousel-image" src="https://www.shutterstock.com/image-photo/hard-drugs-on-dark-table-600nw-413804086.jpg" alt="Imagen 2" width=50%>
+            <img class="carousel-image" src="https://img.freepik.com/fotos-premium/varias-drogas-adictivas-como-alcohol-cigarrillos-drogas-mesa-madera-marron-concepto-adiccion-drogas_262193-3438.jpg" alt="Imagen 3" width=50%>
+            <img class="carousel-image" src="https://antidopingmexico.com/wp-content/uploads/2016/02/Las-Drogas-ma%CC%81s-comunes.jpg" alt="Imagen 1" width=50%>
+            <img class="carousel-image" src="https://www.shutterstock.com/image-photo/drug-addiction-overdose-concept-girl-600nw-2058457286.jpg" alt="Imagen 1" width=50%>
+            <img class="carousel-image" src="https://www.gaceta.unam.mx/wp-content/uploads/2023/08/mairguana003.jpeg" alt="Imagen 1" width=50%>
+            <img class="carousel-image" src="https://uniandes.edu.co/sites/default/files/droga-zombie-n.jpg" alt="Imagen 1" width=50%>
+            <img class="carousel-image" src="https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/sobredosis.jpg" alt="Imagen 1" width=50%>
+            <img class="carousel-image" src="https://azsalud.com/_next/image?url=https%3A%2F%2Fazsstatic.com%2F1954%2Fconversions%2Ftipos-drogas-large.jpg&w=1280&q=75" alt="Imagen 1" width=50%>
+        </div>
+    </div>
+    </div>
+    <div align="center">
+    <button class="carousel-button" onclick="prevSlide()">Anterior</button>
+    <button class="carousel-button" onclick="nextSlide()">Siguiente</button>
+    </div>
+    <div align="center">
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelector('.carousel-slide');
+        const images = document.querySelectorAll('.carousel-image');
+
+        function showSlide() {
+            slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % images.length;
+            showSlide();
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + images.length) % images.length;
+            showSlide();
+        }
+
+        showSlide(); // Mostrar la primera imagen al cargar la página
+    </script>
+    </div>
+<title>Video acerca del consumo de drogas</title>
+    <h1 class="center-text">Video acerca del consumo de drogas</h1>
+    <div align="center">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/JndZ3y-KVLQ?si=Lu_34qXvmJJYSO8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <h1 class="center-text">Programa de radio con el Dr. Guillermo Blanco Govea</h1>
+    <div align="center">
+    <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/845384182&color=%2349a343&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/max-cortes-press" title="Max Cortés Press" target="_blank" style="color: #cccccc; text-decoration: none;">Max Cortés Press</a> · <a href="https://soundcloud.com/max-cortes-press/fundamental-tener-informacion-sobre-drogas-para" title="Fundamental tener información sobre drogas para aletar a población sobre riesgos:CAPA" target="_blank" style="color: #cccccc; text-decoration: none;">Fundamental tener información sobre drogas para aletar a población sobre riesgos:CAPA</a></div>
+    </div>
 </body>
-</html>    
+</html>
